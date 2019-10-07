@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="utf-8">
+        <title>Guy's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/Portfolio_CSS.css">
+    </head>
+    <body>
+
+
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Project">Projects</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <br>
+        <br>
+
+        <div id="Home">
+            <p>
+                Guy's Portfolio.
+            </p>
+            <img src="./Images/code.jpg" alt="Code">
+        </div>
+
+        <div class="Row" id="About">
+            <h2>About</h2>
+            <div class="Column_2">
+                <img src="./Images/me.jpg" alt="Guy French">
+            </div>
+            <div class="Column_1"> 
+                
+                <p>Originally from Texas I am now a resident of Provo Utah.</p>
+                <p>I am a student of The Tech Academy's C# boot camp.</p>
+                <p>If you would like to contact me: guybfrench@gmail.com</p><br>
+            </div>
+        </div>
+
+        <div class="Row" id="Project">
+            <h2>Projects</h2>
+            <div class="Row" id="GitHub">
+                    <div class="Column_1">
+                        <h3>GitHub</h3>
+                            <p>You can view my coding projects on my GitHub profile here:<br>
+                            <a href="https://github.com/GuyBFrench" target="_blank">Guy French's GitHub</a></p>
+                    </div>
+                    
+                    <div class="Column_2">
+                        <a href="https://github.com/GuyBFrench" target="_blank"><img src="./Images/github.png" alt="GitHub"></a>
+                    </div>
+                </div>
+        </div>
+
+        <div class="Row" id="Contact">
+            <div class="Column_3"> <!-- Contact image, left column -->
+                <img src="./Images/email.png" alt="Contact_Image">
+                </div>
+            <h2>Contact</h2>
+            <div class="Column_1"> 
+                <h5>Please enter your contact information here.</h5> 
+                    <form action="" method="get"> 
+                        <label>Name:</label>
+                            <input type="text" placeholder="Please enter your name here">
+                        <label>Email:</label>
+                            <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                        <label>Message:</label>
+                            <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                            <input type="submit" value="Submit">
+                    </form>
+            </div>
+        </div>
+
+        <footer>
+                <p>
+                    &copy GuyB's Web Development  <br>
+                </p>
+            </footer>
+
+
+    </body>
+</html>
