@@ -17,7 +17,7 @@ body.fade-out {
 /* Navbar */
 .Navbar {
 	overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-	background-color: rgba(21, 6, 75, 0.986); /* This colors the navbar black */
+	background-color: rgba(0, 16, 99, 0.6); /* This colors the navbar black */
 	position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
 	top: 0; /* This ensures no space is displayed above the navbar */
 	width: 100%; /* This makes the navbar span the entire width of the page */
@@ -66,7 +66,7 @@ body.fade-out {
 
 /* Navbar home button */
 .Navbar a.active { /* The active selector styles a link */
-  background-color: rgb(22, 8, 73);  /* This specifies the background color behind the Home button on the navbar */ 
+  background-color: #010055;  /* This specifies the background color behind the Home button on the navbar */ 
 }
 
 /* This causes the video to zoom out from a zoomed in position upon page load */
@@ -229,7 +229,7 @@ body.fade-out {
 	padding: 10px; 
 	padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
 	height: 400px; /* This sets the height of our column at 400 pixels - if you change the text within the columns, you will need to adjust the column heights accordingly */
-	background-color: #eeebff; 
+	background-color: #d0e7ff; 
 }
 
 .Column_2 {
@@ -256,6 +256,10 @@ body.fade-out {
 	clear: both; /* This clears any other elements from floating on the left or the right of an element */
 }
 
+#Form {
+	height: 450px;
+}
+
 /* Heading 1 elements */
 h1 {
 	text-transform: uppercase; /* We are capitalizing our headings */
@@ -265,12 +269,30 @@ h1 {
 	color: #0b0a29;
 }
 
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	font-weight: bold;
+}
+
+.Line {
+	line-height: 1.0;
+	width: 100%;
+	float:left;
+	padding: 9px;
+
+}
+
 /* Paragraph elements */
 p {
 	font-family: Perpetua, Rockwell Extra Bold;
 	text-align: justify;
 	letter-spacing: 1px; /* This expands the text slightly */
-	font-size: 20px;
+	font-size: 25px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -310,12 +332,12 @@ img {
 /* Contact form */
 input[type=text] { /* This covers the input sections of the contact form */
 	width: 100%;
-	padding: 12px;
+	padding: 10px;
     border: 1px solid #ccc; /* We are setting a solid border and its colors */
     border-radius: 4px; 
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     resize: vertical; /* This specifies how an element is resized; vertical allows the user to resize the height of the element */
     font-family: Perpetua, Rockwell Extra Bold; 
 }

@@ -26,7 +26,6 @@
             <a href="#About">About</a>
             <a href="#Project">Projects</a>
             <a href="#Contact">Contact</a>
-            <a onclick="openForm()">Contact</a>
         </div>
 
         <div class="btn cancel" onclick="closeForm()"></div>
@@ -42,15 +41,17 @@
         </div>
 
         <div class="Row" id="About">
+            <div class="Line"> </div>
             <h2>About</h2>
             <div class="Column_2">
                 <img src="./Images/me.jpg" alt="Guy French">
             </div>
             <div class="Column_1"> 
-                
-                <p>Originally from Texas I am now a resident of Provo Utah.</p>
-                <p>I am a student of The Tech Academy's C# boot camp.</p>
-                <p>If you would like to contact me: guybfrench@gmail.com</p><br>
+                <div class="intro">                
+                    <p>Originally from Texas I am now a resident of Provo Utah.</p>
+                    <p>I am a C# and .Net Framework Developer.</p>
+                    <p>If you would like to contact me: guybfrench@gmail.com</p><br>
+                </div>
             </div>
         </div>
 
@@ -153,13 +154,13 @@
         </div>
 
         <div class="Row" id="Contact">
+            <h2>Contact</h2>
             <div class="Column_3"> 
                 <img src="./Images/email.png" alt="Contact_Image">
                 </div>
-            <h2>Contact</h2>
-            <div class="Column_1"> 
-                <h5>Please enter your contact information here.</h5> 
-                    <form action="" method="get"> 
+            <div class="Column_1" id="Form"> 
+                <h4>Please enter your contact information here.</h4> 
+                    <form action="openForm()" method="get"> 
                         <label>Name:</label>
                         <label for="phone"><b>Phone</b></label>
 			            <input type="text" placeholder="Enter your phone number here" name="phone">
