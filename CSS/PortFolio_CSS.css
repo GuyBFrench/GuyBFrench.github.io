@@ -279,6 +279,14 @@ h2 {
 	font-weight: bold;
 }
 
+h3 {
+	text-transform: uppercase; /* We are capitalizing our headings */
+	font-family: "Trebuchet MS", Optima; 
+	text-align: center;
+	margin-top: 0.5%; /* We are adding a small margin above the headings */
+	color: #0b0a29;
+}
+
 .Line {
 	line-height: 1.0;
 	width: 100%;
