@@ -227,8 +227,8 @@ body.fade-out {
 	float: left;  
 	width: 50%; /* This ensures one column takes up half the page width */
 	padding: 10px; 
-	padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
-	height: 400px; /* This sets the height of our column at 400 pixels - if you change the text within the columns, you will need to adjust the column heights accordingly */
+	padding-top: 0.5%; /* This ensures there is space between the top of the column and our headings */
+	height: 425px; /* This sets the height of our column at 400 pixels - if you change the text within the columns, you will need to adjust the column heights accordingly */
 	background-color: #d0e7ff; 
 }
 
@@ -347,7 +347,7 @@ input[type=submit] { /* This covers the submit button for the contact form */
 	background-color: black;
 	color: white;
 	font-weight: bold;
-	padding: 12px 20px;
+	padding: 10px 15px;
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
