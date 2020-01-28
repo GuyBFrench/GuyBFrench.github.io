@@ -377,8 +377,9 @@ input[type=submit]:hover {
 form { 
 	border-radius: 5px; 
 	background-color: #f2f2f2;
-	padding: 20px;
+	padding: 15px;
 	font-family: "Trebuchet MS", Optima;
+	font-size: 20px;
 }
 
 /* Center align element hover effect */
