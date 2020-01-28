@@ -228,7 +228,7 @@ body.fade-out {
 	width: 50%; /* This ensures one column takes up half the page width */
 	padding: 10px; 
 	padding-top: 0.5%; /* This ensures there is space between the top of the column and our headings */
-	height: 475px; /* This sets the height of our column at 425 pixels - if you change the text within the columns, you will need to adjust the column heights accordingly */
+	height: 425px; /* This sets the height of our column at 425 pixels - if you change the text within the columns, you will need to adjust the column heights accordingly */
 	background-color: #d0e7ff; 
 }
 
@@ -237,7 +237,7 @@ body.fade-out {
 	width: 50%;
 	padding: 10px;
 	padding-top: 1.9%;
-	height: 400px;
+	height: 425px;
 	background-color: #010055;
 }
 
@@ -246,7 +246,16 @@ body.fade-out {
 	width: 50%;
 	padding: 10px;
 	padding-top: 3.5%;
-	height: 450px;
+	height: 425px;
+	background-color: #010052;
+}
+
+.Column_4 {
+	float: right;
+	width: 50%;
+	padding: 10px;
+	padding-top: 5px;
+	height: 425px;
 	background-color: #010052;
 }
 
